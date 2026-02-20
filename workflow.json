@@ -1,0 +1,37 @@
+{
+  "nodes": [
+    {
+      "id": "input_node",
+      "type": "Input",
+      "label": "Telegram Message",
+      "nodeCategory": "input"
+    },
+    {
+      "id": "telegram_chat_agent",
+      "type": "Agent",
+      "label": "Telegram Chat Agent",
+      "nodeCategory": "agent",
+      "agent_id": "699889aa2407a74739486500",
+      "model": "gpt-4.1",
+      "provider": "openai",
+      "temperature": 0.7,
+      "top_p": 0.95
+    },
+    {
+      "id": "output_node",
+      "type": "Output",
+      "label": "Telegram Response",
+      "nodeCategory": "end"
+    }
+  ],
+  "edges": [
+    {
+      "source": "input_node",
+      "target": "telegram_chat_agent"
+    },
+    {
+      "source": "telegram_chat_agent",
+      "target": "output_node"
+    }
+  ]
+}

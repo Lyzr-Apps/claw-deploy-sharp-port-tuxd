@@ -1,0 +1,16 @@
+{
+  "agent_name": "Telegram Chat Agent",
+  "agent_id": "699889aa2407a74739486500",
+  "description": "Receives messages from Telegram users and generates responses using the user's selected AI model and API key. Maintains conversational context within a chat session.",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "response_text": "string",
+    "conversation_context": "string"
+  },
+  "example_response": {
+    "response_text": "The AI response to send back to the Telegram user",
+    "conversation_context": "Brief summary of conversation context for continuity"
+  }
+}

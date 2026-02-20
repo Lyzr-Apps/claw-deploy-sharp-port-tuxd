@@ -1,0 +1,9 @@
+{
+  "agents": {
+    "telegram_chat_agent": {
+      "agent_id": "699889aa2407a74739486500",
+      "name": "Telegram Chat Agent",
+      "type": "single"
+    }
+  }
+}

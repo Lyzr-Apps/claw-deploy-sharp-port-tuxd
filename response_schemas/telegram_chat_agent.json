@@ -1,0 +1,11 @@
+{
+  "agent_name": "Telegram Chat Agent",
+  "agent_id": "699889aa2407a74739486500",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "schema": {
+    "response_text": "string",
+    "conversation_context": "string"
+  }
+}
